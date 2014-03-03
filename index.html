@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Clock</title>
+        <link rel="stylesheet" href="css/clock.css">
+         <script src="js/jquery-1.10.1.min.js"></script>
+        <script src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/clock.js"></script>        
+    </head>
+    <body>
+
+        <div id="clock">
+            <h1>Clock</h1>
+            
+            <div id="epoch">
+                <h2>Seconds since epoch</h2>
+                <div id="epoch_seconds">
+                </div>
+            </div>
+            
+            <div id="earth_time">
+                <h2>Earth Time</h2>
+                <span id="earth_year"></span>-<span id="earth_month"></span>-<span id="earth_day"></span>, <span id="earth_hour"></span>:<span id="earth_minute"></span>:<span id="earth_second"></span>
+            </div>
+            
+            <div id="earth_metric_time">
+                <h2>Earth Metric Time</h2>
+                <span id="earth_metric_year"></span>-<span id="earth_metric_month"></span>-<span id="earth_metric_day"></span>, <span id="earth_metric_hour"></span>:<span id="earth_metric_minute"></span>:<span id="earth_metric_second"></span>
+            </div>
+         
+            <div id="grigoran_time">
+                <h2>Grigoran Time</h2>
+                <span id="grigoran_year"></span>-<span id="grigoran_month"></span>-<span id="grigoran_day"></span>, <span id="grigoran_hour"></span>:<span id="grigoran_minute"></span>:<span id="grigoran_second"></span>
+            </div>
+            
+            <div id="orian_time">
+                <h2>Orian Time</h2>
+                <span id="orian_year"></span>-<span id="orian_season"></span>-<span id="orian_day"></span>, <span id="orian_quater"></span>:<span id="orian_hour"></span>:<span id="orian_minute"></span>:<span id="orian_beat"></span>                
+            </div>
+            
+            <div id="niddling_time">
+                <h2>Niddling Time</h2>
+                <span id="niddling_year"></span>-<span id="niddling_season"></span>-<span id="niddling_month"></span>-<span id="niddling_day"></span>, <span id="niddling_hour"></span>:<span id="niddling_minute"></span>:<span id="niddling_second"></span>
+            </div>
+            
+            <div id="vulpinian_time">
+                <h2>Vulpinian Time</h2>
+                <span id="vulpinian_cycle"></span>-<span id="vulpinian_kyuugon"></span>-<span id="vulpinian_rotation"></span>, <span id="vulpinian_major"></span>:<span id="vulpinian_minor"></span>
+            </div>
+            
+            <div id="vulpinian_time_hex">
+                <h2>Vulpinian Time (hex)</h2>
+              <span id="vulpinian_hex_cycle"></span>-<span id="vulpinian_hex_kyuugon"></span>-<span id="vulpinian_hex_rotation"></span>, <span id="vulpinian_hex_major"></span>:<span id="vulpinian_hex_minor"></span>
+            </div>
+
+            <div id="uct_time">
+                <h2>UCT Time</h2>
+                <span id="uct_year"></span>-<span id="uct_month"></span>-<span id="uct_day"></span>, <span id="uct_hour"></span>:<span id="uct_minute"></span>:<span id="uct_second"></span>
+            </div>
+        </div>        
+    </body>
+</html>
